@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #670da3;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #4e2da8;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+  }
+  
+  .feature p {
+    margin-bottom: 0;
+  }
